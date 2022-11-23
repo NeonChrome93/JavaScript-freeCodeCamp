@@ -1,11 +1,11 @@
-const flip=(d, a)=>{
+const flip = (d, a) => {
 
-    if (d=='R') {
-      a.sort(function(x, y){return x-y});
+    if (d == 'R') {
+      a.sort((x, y) => x-y);
     }
     else {
-      a.sort(function(x,y){return y-x});
+      a.sort((x,y) => y-x);
     }
     return a
-    
+
   }
