@@ -1,9 +1,11 @@
 const flip=(d, a)=>{
-    if (d=='R'){
+
+    if (d=='R') {
       a.sort(function(x, y){return x-y});
     }
-    else{
+    else {
       a.sort(function(x,y){return y-x});
     }
     return a
+    
   }
