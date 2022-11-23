@@ -1,0 +1,2 @@
+# JavaScript-freeCodeCamp
+JS solutions
